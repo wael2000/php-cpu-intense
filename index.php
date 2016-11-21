@@ -9,3 +9,4 @@ phpinfo();
 phpinfo(INFO_MODULES);
 
 ?>
+<h2> hello </h2>
