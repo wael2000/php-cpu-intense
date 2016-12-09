@@ -1,4 +1,4 @@
-<h1> Hello Meydan </h1>
+<h1> Hello Red Hat </h1>
 <?php
 
 // Show all information, defaults to INFO_ALL
