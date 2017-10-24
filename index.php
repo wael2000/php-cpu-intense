@@ -24,8 +24,8 @@ CPU Stress test performed.
 </p>
 <?php
 // CPU stress test
-for($i = 0; $i < 1000; $i++) {
-     $a += $i;
+for($i = 0; $i < 10000; $i++) {
+     $a += $i*2+$i;
 }
 ?>
 
