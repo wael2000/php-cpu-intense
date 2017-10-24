@@ -18,16 +18,6 @@ echo "This machine is: ";
 echo gethostname();
 ?>
 
-</p>
-<?php
-$EC2_AZ=`curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone`;
-if ($EC2_AZ == 'us-west-2a') $COLOR="blue";
-if ($EC2_AZ == 'us-west-2b') $COLOR="green";
-if ($EC2_AZ == 'us-west-2c') $COLOR="red";
-echo '<p style="font-family:verdana;font-size:180%;color:'.$COLOR.'">'.$EC2_AZ;
-?>
-</p>
-
 <br><br><br>
 <p style="font-family:verdana;font-size:120%;color:black">
 CPU Stress test performed.
