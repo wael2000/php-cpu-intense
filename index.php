@@ -23,6 +23,7 @@ echo gethostname();
 CPU Stress test performed.
 </p>
 <?php
+$a = 0;
 // CPU stress test
 for($i = 0; $i < 1000000; $i++) {
      $a += $i*2+$i;
